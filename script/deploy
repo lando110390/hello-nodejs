@@ -4,7 +4,6 @@ ssh lando110390@nodejs-server <<EOF
   cd ~/hello-nodejs
   git pull
   npm install --production
-  forever stopall
-  forever start app.js
+  forever restartall
   exit
 EOF
