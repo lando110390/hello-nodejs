@@ -3,6 +3,6 @@ var app = require('../app.js');
  
 describe('GET /', function() {
   it('respond with hello world', function(done) {
-      request(app).get('/').expect('HELLO JENKINS !!!', done);
+      request(app).get('/').expect('HELLO JENKINS - 成功しました !!!', done);
     });
 });
